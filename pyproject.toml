@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv-dis"
+dynamic = ["version"]
+description = "Lokaler CSV-Betrachter: eine Datei als Tabelle, read-only"
+requires-python = ">=3.12"
+dependencies = [
+    "PyQt6>=6.7,<7",
+    "polars>=2.1,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pyinstaller>=6",
+]
+
+[project.scripts]
+csv-dis = "csv_dis.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "csv_dis.__version__"}
+
+[tool.setuptools.package-data]
+csv_dis = ["assets/*.ico"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
