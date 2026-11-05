@@ -4,6 +4,7 @@
 
 - [x] Lokales Git-Repository auf Branch `main` anlegen und ersten Commit erstellen.
 - [x] `.gitignore` um `csv_dis.cmd` und `start.cmd` ergänzen.
+- [x] Remote `origin` verbinden (https://github.com/ralfJoswig/csv-dis) und `main` pushen.
 
 ## v1 – Parser
 

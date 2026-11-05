@@ -8,7 +8,7 @@
 - Der Loader liest alle Spalten als String (`infer_schema_length=0`), damit der Originaltext erhalten bleibt. Spaltentypen sind nur für Sortierung und Filter gedacht, nicht für die Anzeige.
 - Zielbild und Abnahme: `docs/v2-spec.md` (aktueller, abgenommener Increment); v1-Grundlage: `docs/v1-spec.md`. Begriffe: `CONTEXT.md`. Datenmodell: `docs/adr/0001-polars-datenmodell.md`; Suchsemantik: `docs/adr/0002-suche-markiert-statt-zu-filtern.md`.
 - Auslieferung als gepackte Anwendung `dist\csv-dis\csv-dis.exe` (PyInstaller, `tools/build_exe.py`); nur so zeigt die Windows-Taskleiste das eigene Icon. Lizenz: GPLv3, Texte in `LICENSE` und `THIRD-PARTY-NOTICES.md`.
-- Das Verzeichnis ist seit 2026-11-05 ein lokales Git-Repository (Branch `main`, erster Commit). `csv_dis.cmd` und `start.cmd` sind lokal ignoriert.
+- Das Verzeichnis ist seit 2026-11-05 ein Git-Repository (Branch `main`, Remote `origin` → https://github.com/ralfJoswig/csv-dis). `csv_dis.cmd` und `start.cmd` sind lokal ignoriert.
 
 ## Befehle
 

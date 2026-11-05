@@ -4,7 +4,7 @@ Alle nennenswerten Änderungen an `csv-dis`. Neueste Einträge oben, je Version 
 
 ## [Unveröffentlicht] – 2026-11-05
 
-- Verzeichnis als lokales Git-Repository initialisiert (Branch `main`); erster Commit enthält den Stand von 1.1.0.
+- Verzeichnis als Git-Repository initialisiert (Branch `main`, Remote `origin` → https://github.com/ralfJoswig/csv-dis); Commit enthält den Stand von 1.1.0 und wurde gepusht.
 - `.gitignore` um `csv_dis.cmd` und `start.cmd` ergänzt (lokale Startskripte, nicht Teil des Projekts).
 - `AGENTS.md` und `HANDOFF.md` an die nun vorhandene Versionierung angepasst.
 

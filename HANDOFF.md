@@ -5,7 +5,7 @@ Kurzfassung: `STATUS.md` · offene Punkte: `TODO.md` · Historie: `CHANGELOG.md`
 
 ## Ziel
 
-Lokaler Windows-CSV-Betrachter: **eine** Datei, read-only, Tabelle mit Filtern (pro Spalte, UND-verknüpft), Sortierung (eine Spalte), ausblendbaren Spalten und spaltenübergreifender Suche. Bis etwa 1 Mio. Zeilen / 100 MB. Oberfläche und Dokumentation auf Deutsch. Das Verzeichnis ist seit 2026-11-05 ein lokales Git-Repository (Branch `main`). Weitergabe erfolgt als gepackte Anwendung `dist/csv-dis/`.
+Lokaler Windows-CSV-Betrachter: **eine** Datei, read-only, Tabelle mit Filtern (pro Spalte, UND-verknüpft), Sortierung (eine Spalte), ausblendbaren Spalten und spaltenübergreifender Suche. Bis etwa 1 Mio. Zeilen / 100 MB. Oberfläche und Dokumentation auf Deutsch. Das Verzeichnis ist seit 2026-11-05 ein Git-Repository (Branch `main`, Remote `origin` → https://github.com/ralfJoswig/csv-dis). Weitergabe erfolgt als gepackte Anwendung `dist/csv-dis/`.
 
 ## Fertig und verifiziert
 

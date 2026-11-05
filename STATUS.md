@@ -10,7 +10,7 @@ Lokales Windows-Programm zur Anzeige **einer** CSV-Datei mit Filtern, Sortierung
 
 ## Aktuell
 
-- Versionierung: lokales Git-Repository auf Branch `main`, erster Commit vom 2026-11-05. `.gitignore` schließt `.venv/`, `build/`, `dist/` sowie die lokalen Startskripte `csv_dis.cmd` und `start.cmd` aus.
+- Versionierung: Git-Repository auf Branch `main`, Remote `origin` → https://github.com/ralfJoswig/csv-dis, Stand von 1.1.0 gepusht (2026-11-05). `.gitignore` schließt `.venv/`, `build/`, `dist/` sowie die lokalen Startskripte `csv_dis.cmd` und `start.cmd` aus.
 - Grundgerüst steht: `pyproject.toml`, `src/csv_dis`, lokale `.venv`, pytest.
 - CSV-Laden funktioniert: BOM, UTF-8/Windows-1252, Trennzeichen `; , Tab |`, RFC 4180 inklusive mehrzeiliger Felder, Kopfzeilen-Normalisierung, kurze Zeilen auffüllen, lange melden.
 - Öffnen läuft im Hintergrund: unbestimmte Fortschrittsanzeige mit „Abbrechen“, Fenster bleibt bedienbar. Eine neu geöffnete Datei ersetzt den laufenden Ladevorgang; veraltete Ergebnisse werden verworfen.
