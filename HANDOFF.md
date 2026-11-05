@@ -100,7 +100,7 @@ v2 ist vollständig abgenommen: die elf Punkte aus `docs/v2-spec.md` sind geprü
 - **Build:** `--clean` löscht `build/`; `dist/csv-dis/` (158 Dateien, 251,5 MB) muss als Ganzes weitergegeben werden, nicht nur die `.exe`. Die Tests prüfen die `.exe` nur, wenn sie existiert; `pytest` baut nicht selbst, ein veralteter Build bleibt also unentdeckt.
 - Die Drag-&-Drop-Geste wurde am 2026-10-26 von Hand geprüft; zusätzlich existieren synthetische Qt-Tests.
 - Beispieldateien liegen außerhalb des Projekts und können persönliche Daten enthalten: nicht kopieren.
-- Keine Git-Befehle oder Commits voraussetzen.
+- Git ist eingerichtet (Branch `main`, Remote `origin`); vor Arbeiten den Stand mit `git pull` aktualisieren und Änderungen committen.
 
 ## Dateien
 
